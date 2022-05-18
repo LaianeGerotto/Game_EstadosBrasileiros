@@ -8,7 +8,7 @@ No Jogo o usuário precisa digitar os 27 estados brasileiros, ao acertar o nome 
 - Turtle 🐢
 - Pandas 🐼
 
-Estados Brasileiros:
+**Estados Brasileiros:**
 Acre, Alagoas, Amapá, Amazonas,Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraíba, Paraná, Pernambuco,
 Piauí, Rio de Janeiro, Rio Grande do Norte, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe,Tocantins.
 
