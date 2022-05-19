@@ -24,7 +24,6 @@ lista_usuario = [] #Lista com os estados inseridos pelo usuário
 
 while len(lista_usuario) < 27:
   pergunta = screen.textinput(title=f"{len(lista_usuario)}/27 Estados Corretos", prompt="Digite o nome do Estado").upper()
-  pergunta.setposition(-600,-600)
 
   # Quando sair, criar uma nova lista de estados que faltam
   if pergunta == "Exit":
@@ -46,5 +45,13 @@ while len(lista_usuario) < 27:
     novo_estado = dados[dados.estados == pergunta]
     t.goto(int(novo_estado.x), int(novo_estado.y))
     t.write(pergunta)
+
+  if len(lista_usuario) == 27:
+    screen.clear()
+    imagem2 = "estados_brasileirocompleto.gif" # Para adicionar a imagem na tela
+    screen.addshape(imagem2)
+    turtle.shape(imagem2)
+    screen.exitonclick()
+
 
 
